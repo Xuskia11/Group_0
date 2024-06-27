@@ -7,9 +7,9 @@ function numbers(){
 numbers()
 
 
-const p = document.getElementById("paragraph")
+const p = document.getElementById("paragraph");
 const buttons = document.getElementById("button");
-const buttons2 = document.getElementById("button2")
+const buttons2 = document.getElementById("button2");
 
 
 function change(){
