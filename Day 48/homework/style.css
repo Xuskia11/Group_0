@@ -87,9 +87,16 @@ main {
 }
 img {
     filter: drop-shadow(0 0 10px white);
+    position: relative;
+    right: 100px;
+    
 }
 #result {
     color: white;
+}
+.roll {
+    position: relative;
+    left: 50px;
 }
 
 
