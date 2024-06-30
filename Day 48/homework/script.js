@@ -26,13 +26,13 @@ function roll(){
         if(number1 > number2){
             score++
             computer_score.textContent = "Computer_score: " + score
-            result.textContent = "You Won!!!";
+            result.textContent = "You Lost!!!";
 
         
         } else if(number2 > number1){
             score2++
             your_score.textContent = "Your_score: " + score2;
-            result.textContent = "You Lost!!!";
+            result.textContent = "You Won!!!";
         }else if(number2 === number1){
             result.textContent = "Tie!!!";
         }
