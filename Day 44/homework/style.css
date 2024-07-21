@@ -1,0 +1,21 @@
+p {
+    transition: 0.7s;
+}
+body {
+    height: 150px;
+}
+div {
+    text-align: center;
+    margin-top: 70px;
+}
+div button:hover {
+    transform: scale(1.5);
+    background-color: skyblue;
+    border-radius: 50px;
+    border: 3px solid blue;
+}
+div button {
+    transition: 0.7s;
+    margin: 8px;
+    border-radius: 25px;
+}
