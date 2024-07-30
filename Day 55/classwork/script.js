@@ -20,7 +20,7 @@ for(let i = 0;i < 5; i++){
 
 const lists = [1,2,3,4,5,6,7];
 
-for(const i of lists){
+for(const i of lists){  
     if(i % 2 === 0){
         console.log(i + " " + "This number is even");
 
@@ -33,4 +33,10 @@ let number5 = 200;
 while(number5 !== 0){
     number5--;
     console.log(number5);
+}
+
+for(let i = 0;i < 1000;i++){
+    console.log(i)
+    console.log("I love erekle")
+
 }
