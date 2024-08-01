@@ -5,7 +5,7 @@ const submit = document.getElementById("submit")
 
 submit.addEventListener("click",function(e){
     e.preventDefault()    
-    const base = new Register(gmail.value,password.value)
+    const base = new Register(username.value,gmail.value,password.value)
     console.log(base)
 
     
