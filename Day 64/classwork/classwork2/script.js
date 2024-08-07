@@ -3,11 +3,10 @@ const form = document.getElementById("form")
 
 const account = []
 
-const Account = function(username,email,password,reapetedPassword){
+const Account = function(username,email,password){
     this.username = username;
     this.email = email;
     this.password = password;
-    this.reapetedPassword = reapetedPassword;
 }
 
 
@@ -19,7 +18,7 @@ form.addEventListener("submit",function(e){
     const passwordValue = form.elements.password.value;
     const reaptedPasswordValue = form.elements.reapetedPassword.value;
 
-    const acc = new Account(usernameValue,emailValue,passwordValue,reaptedPasswordValue)
+    const acc = new Account(usernameValue,emailValue,passwordValue)
 
     if(passwordValue !== reaptedPasswordValue){
         form.elements.reapetedPassword.style.borderColor = "red"
