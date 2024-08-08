@@ -74,7 +74,7 @@ for(let i = 0;i < input; i++){
     nameInput = prompt("Enter your name here: ")
     lastnameInput = prompt("Enter your lastname here: ")
     ageInput = prompt("Enter you age here: ")
-    idRandom = Math.floor(Math.random() * 50)
+    idRandom = Math.round(Math.random() * 50)
 
     const tickectsObject = new Object(nameInput,lastnameInput,ageInput,idRandom)
 
